@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#183b2b">
+<meta name="description" content="Dukaan Dost helps small shopkeepers plan restocking within a budget.">
+<title>Dukaan Dost | A calmer way to restock</title>
+<style>
+:root{--ink:#17241d;--muted:#6d786f;--green:#1d5338;--green2:#2c704d;--lime:#c5ef82;--cream:#f4f5ed;--paper:#fffef9;--line:#e1e6d9;--orange:#dc8b36;--red:#c9503d;--shadow:0 15px 45px #152b1b0d}*{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}.top{background:#173c2a;color:#fff}.nav{width:min(1120px,calc(100% - 40px));height:68px;margin:auto;display:flex;align-items:center;justify-content:space-between}.brand{font-size:19px;font-weight:800;letter-spacing:-.06em}.brand span{color:var(--lime)}.demo{font-size:11px;padding:8px 11px;border:1px solid #ffffff32;border-radius:99px;color:#dbe7dc}.demo i{display:inline-block;width:7px;height:7px;margin-right:7px;background:var(--lime);border-radius:50%}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}.hero{display:flex;justify-content:space-between;align-items:end;gap:20px;padding:42px 0 25px}.eyebrow{font:700 10px ui-monospace,monospace;letter-spacing:.13em;text-transform:uppercase;color:var(--green2)}h1{margin:10px 0 7px;font-size:clamp(30px,5vw,48px);line-height:1;letter-spacing:-.065em}.sub{max-width:560px;color:var(--muted);font-size:14px;line-height:1.65;margin:0}.reset{background:transparent;border:1px solid #cad4c6;color:var(--green);padding:10px 13px;border-radius:9px;font-weight:700;cursor:pointer;white-space:nowrap}.reset:hover{background:#e9eee3}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:0 0 14px}.stat{background:var(--paper);border:1px solid var(--line);border-radius:13px;padding:16px 18px;box-shadow:var(--shadow)}.stat label{display:block;font-size:11px;color:var(--muted)}.stat strong{display:block;margin-top:6px;font-size:24px;letter-spacing:-.05em}.stat .hint{font-size:10px;color:var(--muted);margin-top:3px}.main-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:14px;align-items:start}.panel{background:var(--paper);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);overflow:hidden}.panel-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 18px;border-bottom:1px solid var(--line)}.panel-head h2{font-size:15px;letter-spacing:-.03em;margin:0}.panel-head p{font-size:10px;color:var(--muted);margin:5px 0 0}.badge{font-size:9px;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:var(--green);background:#eaf4e1;border-radius:99px;padding:7px 9px;white-space:nowrap}.budgetbox{padding:16px 18px 18px;background:#f9faf4;border-bottom:1px solid var(--line)}.budgetbox label{display:block;font-size:11px;font-weight:700;margin-bottom:9px}.budgetrow{display:flex;gap:8px}.budgetrow select,.budgetrow input,.addrow input,.addrow select{height:40px;border:1px solid #d7ded0;border-radius:9px;background:#fff;padding:0 11px;color:var(--ink);font:inherit}.budgetrow select{width:94px}.budgetrow input{max-width:190px;flex:1;font-weight:800;font-size:17px}.plan{padding:9px 16px}.planitem{display:grid;grid-template-columns:1fr auto;gap:10px;padding:12px 2px;border-bottom:1px solid #edf0e8}.planitem:last-child{border-bottom:0}.planname{font-size:12px;font-weight:800}.why{font-size:10px;color:var(--muted);margin-top:4px;line-height:1.45}.buy{font-size:10px;color:var(--green);font-weight:800;margin-top:4px}.wait{font-size:10px;color:#9a6a29;font-weight:800;margin-top:4px}.cost{text-align:right;font-size:12px;font-weight:800}.packs{font-size:9px;color:var(--muted);margin-top:4px}.empty{padding:22px 4px;text-align:center;color:var(--muted);font-size:12px}.small-note{padding:10px 18px;border-top:1px solid var(--line);font-size:9px;color:var(--muted);line-height:1.5}.stock-head{display:flex;justify-content:space-between;align-items:center;padding:17px 18px 10px}.stock-head h2{font-size:15px;margin:0;letter-spacing:-.03em}.stock-head span{font-size:10px;color:var(--muted)}.items{display:grid;grid-template-columns:1fr 1fr;gap:9px;padding:0 13px 14px}.item{border:1px solid var(--line);border-radius:11px;padding:12px;background:#fff}.itemtop{display:flex;justify-content:space-between;gap:8px;align-items:start}.itemname{font-size:12px;font-weight:800}.category{font-size:8px;color:var(--muted);margin-top:3px}.level{font-size:9px;padding:5px 7px;border-radius:99px;background:#edf3e8;color:#3d7044;white-space:nowrap}.level.low{background:#fff1df;color:#98601d}.level.out{background:#fbe9e6;color:#b04737}.iteminfo{display:flex;justify-content:space-between;gap:6px;margin:12px 0 10px;color:var(--muted);font-size:9px}.iteminfo b{display:block;color:var(--ink);font-size:12px;margin-top:2px}.controls{display:flex;gap:6px}.controls button{flex:1;border:1px solid #d8e0d4;background:#f8faf5;color:var(--green);border-radius:7px;padding:7px 5px;font-size:9px;font-weight:800;cursor:pointer}.controls button:hover{background:#e9f2e1}.controls .sold{border-color:#f2d5c4;color:#9f4e2e}.controls .sold:hover{background:#fff2e9}.addpanel{margin-top:14px}.addrow{display:grid;grid-template-columns:1.3fr .7fr .8fr .8fr .7fr auto;gap:7px;padding:14px}.addrow input,.addrow select{min-width:0;width:100%;font-size:10px;height:38px}.addrow button{border:0;border-radius:8px;background:var(--green);color:white;font-weight:800;padding:0 13px;cursor:pointer}.addrow button:hover{background:var(--green2)}.foot{padding:20px 0 30px;text-align:center;color:var(--muted);font-size:10px}.toast{position:fixed;bottom:18px;left:50%;transform:translate(-50%,20px);opacity:0;pointer-events:none;background:#173c2a;color:white;padding:11px 15px;border-radius:9px;font-size:11px;transition:.2s;box-shadow:var(--shadow)}.toast.show{opacity:1;transform:translate(-50%,0)}@media(max-width:800px){.main-grid{grid-template-columns:1fr}.addrow{grid-template-columns:repeat(3,1fr)}.addrow button{min-height:38px}}@media(max-width:540px){.wrap,.nav{width:calc(100% - 28px)}.nav{height:58px}.hero{padding:30px 0 19px;align-items:start}.sub{font-size:12px}.reset{font-size:9px;padding:9px}.stats{gap:7px}.stat{padding:12px 10px}.stat strong{font-size:18px}.stat label{font-size:9px}.stat .hint{font-size:8px}.items{grid-template-columns:1fr}.item{padding:13px}.panel-head{padding:14px}.budgetbox{padding:14px}.plan{padding:7px 13px}.addrow{grid-template-columns:1fr 1fr}.addrow input:first-child{grid-column:span 2}.addrow button{grid-column:span 2}.demo{font-size:9px}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header class="top"><div class="nav"><a class="brand" href="./" aria-label="Dukaan Dost home">Dukaan<span>Dost</span></a><span class="demo"><i></i>Sample shop demo</span></div></header>
+<main class="wrap">
+<section class="hero"><div><div class="eyebrow">A smarter shop day</div><h1>Restock with a plan.</h1><p class="sub">See what may run low, choose how much you can spend, and get a simple shopping list for your shop.</p></div><button class="reset" id="reset">Reset sample shop</button></section>
+<section class="stats" aria-label="Shop summary"><article class="stat"><label>Restock budget</label><strong id="budgetStat">-</strong><div class="hint">Your spending limit today</div></article><article class="stat"><label>Suggested order</label><strong id="spentStat">-</strong><div class="hint" id="leftHint">Based on recent sales</div></article><article class="stat"><label>Items to watch</label><strong id="watchStat">-</strong><div class="hint">Running low or out</div></article></section>
+<div class="main-grid">
+<section class="panel"><div class="panel-head"><div><h2>Your restock plan</h2><p>Fast-selling essentials come first.</p></div><span class="badge" id="planBadge">Plan ready</span></div><div class="budgetbox"><label for="budget">How much can you spend?</label><div class="budgetrow"><select id="currency" aria-label="Currency"><option value="INR">INR &#8377;</option><option value="PKR">PKR Rs</option><option value="USD">USD $</option></select><input id="budget" type="number" min="0" step="100" value="2000" inputmode="decimal"></div></div><div class="plan" id="plan"></div><div class="small-note">Suggestions use the sample sales and prices shown. Check the list before buying. Your demo changes stay on this device.</div></section>
+<section class="panel"><div class="stock-head"><h2>Stock on your shelves</h2><span id="itemCount"></span></div><div class="items" id="items"></div></section>
+</div>
+<section class="panel addpanel"><div class="panel-head"><div><h2>Add a shop item</h2><p>Enter the basics to include it in your plan.</p></div></div><form id="addForm" class="addrow"><input name="name" placeholder="Item name" required maxlength="32"><input name="stock" type="number" min="0" placeholder="In stock" required><input name="weekly" type="number" min="0" placeholder="Sold / week" required><input name="price" type="number" min="1" placeholder="Pack price" required><input name="pack" type="number" min="1" value="1" placeholder="Units / pack" required><button type="submit">Add item</button></form></section>
+<footer class="foot">Dukaan Dost is a planning demo. Use your own prices and sales before making a real purchase.</footer>
+</main><div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>
+const initial=[
+{id:1,name:"Milk",category:"Dairy",stock:14,weekly:42,price:720,pack:12,min:12},
+{id:2,name:"Bread",category:"Bakery",stock:6,weekly:35,price:400,pack:10,min:10},
+{id:3,name:"Eggs",category:"Dairy",stock:12,weekly:28,price:360,pack:30,min:20},
+{id:4,name:"Tea",category:"Grocery",stock:4,weekly:6,price:420,pack:1,min:2},
+{id:5,name:"Rice",category:"Grocery",stock:18,weekly:14,price:320,pack:5,min:5},
+{id:6,name:"Cooking oil",category:"Grocery",stock:8,weekly:10,price:850,pack:6,min:3},
+{id:7,name:"Biscuits",category:"Snacks",stock:24,weekly:70,price:240,pack:24,min:12},
+{id:8,name:"Detergent",category:"Home care",stock:5,weekly:10,price:500,pack:6,min:3}
+];
+const KEY="dukaan-dost-demo-v1";let state=load();
+function load(){try{const s=JSON.parse(localStorage.getItem(KEY));if(s&&Array.isArray(s.items))return s}catch(e){}return{items:structuredClone(initial),budget:2000,currency:"INR"}}
+function save(){localStorage.setItem(KEY,JSON.stringify(state))}
+const money=n=>new Intl.NumberFormat(undefined,{style:"currency",currency:state.currency,maximumFractionDigits:0}).format(n);
+const el=id=>document.getElementById(id);
+function showToast(msg){const t=el("toast");t.textContent=msg;t.classList.add("show");setTimeout(()=>t.classList.remove("show"),1900)}
+function stockLevel(item){const perDay=item.weekly/7;if(item.stock<=0)return["Out of stock","out"];if(perDay>0&&item.stock/perDay<=2)return["Low stock","low"];if(item.stock<=item.min)return["Low stock","low"];return["In stock",""]}
+function planData(){
+ const budget=Math.max(0,Number(state.budget)||0),left={value:budget};
+ const candidates=state.items.map(item=>{
+  const perDay=item.weekly/7,target=Math.max(item.min,Math.ceil(perDay*5)),need=Math.max(0,target-item.stock),packs=need?Math.ceil(need/item.pack):0,days=perDay?item.stock/perDay:999;
+  return{item,perDay,target,need,packs,days,buy:0}
+ }).filter(x=>x.packs>0).sort((a,b)=>a.days-b.days||b.perDay-a.perDay);
+ for(const x of candidates){const packCost=x.item.price;const affordable=Math.floor(left.value/packCost);x.buy=Math.min(x.packs,affordable);left.value-=x.buy*packCost}
+ return{candidates,left:left.value,budget}
+}
+function renderPlan(){
+ const p=planData(),all=state.items.length,watch=state.items.filter(x=>stockLevel(x)[1]).length;
+ el("budgetStat").textContent=money(p.budget);el("spentStat").textContent=money(p.budget-p.left);el("leftHint").textContent=money(p.left)+" left after suggested order";
+ el("watchStat").textContent=watch;el("itemCount").textContent=all+" items";
+ const plan=el("plan");
+ if(!p.candidates.length){plan.innerHTML='<div class="empty">Your shelves look covered for now. Add an item or update weekly sales to refresh the plan.</div>';el("planBadge").textContent="All set";return}
+ const byId=new Map(p.candidates.map(x=>[x.item.id,x]));
+ const rows=p.candidates.map(x=>{
+  const buyCost=x.buy*x.item.price,days=x.days>=900?"No recent sales":x.days.toFixed(1)+" days of stock";
+  const status=x.buy?'<div class="buy">'+(x.buy<x.packs?"Buy "+x.buy+" of "+x.packs+" packs":"Buy "+x.buy+" pack"+(x.buy>1?"s":""))+"</div>":'<div class="wait">Wait this round - budget is used</div>';
+  const amount=x.buy?money(buyCost):money(x.item.price*x.packs)+" needed";
+  return '<article class="planitem"><div><div class="planname">'+escapeHtml(x.item.name)+'</div><div class="why">'+days+' at recent sales pace</div>'+status+'</div><div class="cost">'+amount+'<div class="packs">'+x.item.pack+' units / pack</div></div></article>'
+ }).join("");
+ el("planBadge").textContent=p.budget-p.left?"Budget balanced":"Plan ready";plan.innerHTML=rows
+}
+function renderItems(){
+ el("items").innerHTML=state.items.map(item=>{
+  const [label,level]=stockLevel(item),perDay=item.weekly/7;
+  return '<article class="item"><div class="itemtop"><div><div class="itemname">'+escapeHtml(item.name)+'</div><div class="category">'+escapeHtml(item.category||"Shop item")+'</div></div><span class="level '+level+'">'+label+'</span></div><div class="iteminfo"><span>On shelf<b>'+item.stock+' units</b></span><span>Sold / week<b>'+item.weekly+' units</b></span><span>Pack price<b>'+money(item.price)+'</b></span></div><div class="controls"><button class="sold" data-action="sale" data-id="'+item.id+'">Sold one</button><button data-action="restock" data-id="'+item.id+'">+ Add stock</button></div></article>'
+ }).join("");
+ el("items").querySelectorAll("button").forEach(btn=>btn.addEventListener("click",()=>{
+  const item=state.items.find(x=>x.id===Number(btn.dataset.id));if(!item)return;
+  if(btn.dataset.action==="sale"){if(item.stock<=0)return showToast("No stock left to sell.");item.stock-=1;item.weekly+=1;showToast("Sale recorded. The plan is updated.")}
+  else{item.stock+=item.pack;showToast(item.name+" restocked by "+item.pack+" units.")}
+  save();render()
+ }))
+}
+function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function render(){renderItems();renderPlan()}
+el("budget").value=state.budget;el("currency").value=state.currency;
+el("budget").addEventListener("input",e=>{state.budget=Math.max(0,Number(e.target.value)||0);save();renderPlan()});
+el("currency").addEventListener("change",e=>{state.currency=e.target.value;save();render()});
+el("addForm").addEventListener("submit",e=>{
+ e.preventDefault();const d=new FormData(e.currentTarget),name=String(d.get("name")).trim();
+ const item={id:Date.now(),name,category:"Shop item",stock:Number(d.get("stock")),weekly:Number(d.get("weekly")),price:Number(d.get("price")),pack:Number(d.get("pack")),min:Math.max(1,Number(d.get("pack")))}
+ if(!name||item.price<=0||item.pack<=0)return;
+ state.items.push(item);save();e.currentTarget.reset();e.currentTarget.elements.pack.value=1;render();showToast(name+" added to your shop.")
+});
+el("reset").addEventListener("click",()=>{state={items:structuredClone(initial),budget:2000,currency:"INR"};save();el("budget").value=state.budget;el("currency").value=state.currency;render();showToast("Sample shop restored.")});
+render();
+</script></body></html>
